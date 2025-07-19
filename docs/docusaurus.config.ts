@@ -17,8 +17,8 @@ const config: Config = {
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'databricks-industry-solutions', // Usually your GitHub org/user name.
-  projectName: 'security-analysis-tool', // Usually your repo name.
+  organizationName: 'ivancalvo-dbxs', // Usually your GitHub org/user name.
+  projectName: 'launch-accelerator-guide', // Usually your repo name.
   deploymentBranch: 'gh-pages',
 
   onBrokenLinks: 'throw',
@@ -87,7 +87,7 @@ const config: Config = {
           position: 'right',
         },
         {
-          href: 'https://github.com/databricks-industry-solutions/security-analysis-tool',
+          href: 'https://github.com/ivancalvo-dbxs/launch-accelerator',
           position: 'right',
 
           className: 'header-github-link',
