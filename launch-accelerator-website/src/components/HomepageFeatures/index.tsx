@@ -12,28 +12,23 @@ type FeatureItem = {
 const FeatureList: FeatureItem[] = [
   {
     title: 'Target audience',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    Svg: require('@site/static/img/icons/undraw_docusaurus_mountain.svg').default,
     description: (
       <>
-        &#x2611; Organizations that are getting started on Databricks and are ready to start the development their first data+AI use case. <br/> <br/>
-
-        The content is focused on how to execute while following the best practices.
+        &#x2611; Organizations that are getting started on Databricks <br/> <br/>
+        
+        &#x2611; Data teams ready to start their first Data + AI use case. <br/> <br/>
       </>
     ),
   },
   {
-    title: 'Expected content',
-    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
+    title: 'Content',
+    Svg: require('@site/static/img/icons/undraw_docusaurus_tree.svg').default,
     description: (
       <>
-        &#x2611; Cloud pre-requisites <br/>
-        &#x2611; Databricks Workspaces <br/>
-        &#x2611; Governance with Unity Catalog <br/>
-        &#x2611; Physical and logical data isolation <br/>
-        &#x2611; Build your first data pipeline <br/>
-        &#x2611; How to serve data to users and applications <br/>
-        &#x2611; ML and GenAI toolset <br/>
-        &#x2611; Next steps on your Databricks journey. <br/>
+        &#x2611; Databricks Main Concepts <br/>
+        &#x2611; Pre-requisites <br/>
+        &#x2611; Pre-requisites <br/>
       </>
       /*<>
         Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
@@ -43,11 +38,11 @@ const FeatureList: FeatureItem[] = [
     ),
   },
   {
-    title: 'Expected outcome',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    title: 'Outcome',
+    Svg: require('@site/static/img/icons/undraw_docusaurus_react.svg').default,
     description: (
       <>
-        A production ready Databricks foundation and setup for the organization up-coming Databricks use cases.
+        A production-ready Databricks foundation, setup and use case MVP.
       </>
     ),
   },
