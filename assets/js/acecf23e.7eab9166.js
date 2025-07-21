@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunklaunch_accelerator_website=self.webpackChunklaunch_accelerator_website||[]).push([[1903],{1912:e=>{e.exports=JSON.parse('{"blogBasePath":"/launch-accelerator/blog","blogTitle":"Blog","authorsListPath":"/launch-accelerator/blog/authors"}')}}]);
