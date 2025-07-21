@@ -2,8 +2,8 @@ name: Deploy to GitHub Pages
 
 on:
   push:
-    branches: ["main"]
-    paths: ["launch-accelerator-website/**"]
+    branches:
+      - main
     # Review gh actions docs if you want to further define triggers, paths, etc
     # https://docs.github.com/en/actions/using-workflows/workflow-syntax-for-github-actions#on
 
@@ -18,13 +18,14 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: 18
-          cache: yarn
+          cache: npm
 
+      - name: Install dependencies
+        working-directory: ./launch-accelerator-website
+        run: npm ci
       - name: Build website
-        working-directory: launch-accelerator-website
-        run: |
-          yarn install --frozen-lockfile
-          yarn build
+        working-directory: ./launch-accelerator-website
+        run: npm build
 
       - name: Upload Build Artifact
         uses: actions/upload-pages-artifact@v3
