@@ -98,8 +98,8 @@ const config: Config = {
           title: 'Docs',
           items: [
             {
-              label: 'Tutorial',
-              to: '/docs/01-main-concepts/01-databricks-architecture',
+              label: 'Guide',
+              to: '/docs/main-concepts',
             },
           ],
         },
