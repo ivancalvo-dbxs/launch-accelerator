@@ -99,7 +99,7 @@ const config: Config = {
           items: [
             {
               label: 'Tutorial',
-              to: '/docs/01-main-concepts',
+              to: '/docs/01-main-concepts/01-databricks-architecture',
             },
           ],
         },
